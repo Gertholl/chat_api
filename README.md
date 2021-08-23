@@ -130,8 +130,6 @@ curl --header "Content-Type: application/json" \
 $ cd ~
 $ git clone https://github.com/Gertholl/chat_api.git
 $ cd ChatAPI/
-#$ docker-compose build
-#$ docker-compose up
 ```
 
 ## Testing
