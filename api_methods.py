@@ -28,6 +28,7 @@ class ChatsAdd(Resource):
 
 
 class ChatsGet(Resource):
+
     def post(self):
         args = parser.parse_args()
         names = ["chat_id", "name", "users", "created_at"]
@@ -41,6 +42,7 @@ class ChatsGet(Resource):
             data = str(chat).split(";")
             resp.append(dict(zip(names, data)))
         return resp
+
 
 
 class MessagesAdd(Resource):
@@ -69,6 +71,8 @@ class MessagesGet(Resource):
             data = str(message).split(";")
             response.append(dict(zip(names, data)))
         return response
+
+
 
 
 __all__ = ['UsersAdd', 'ChatsAdd', 'MessagesAdd', 'MessagesGet', 'ChatsGet']
