@@ -1,5 +1,7 @@
 from database.db_config import create_app, db
-from routes.routes import init_api
+from routes.routes import *
+# from routes.routes import init_api
+
 
 if __name__ == '__main__':
     app = create_app()
