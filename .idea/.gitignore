@@ -2,6 +2,6 @@
 /shelf/
 /workspace.xml
 /database/test.sqlite
-/__pycache__
+/__pycache__/*
 /.vscode
 
