@@ -1,7 +1,10 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-/database/test.sqlite
-/__pycache__/*
-/.vscode
+.vscode/
+
+
+*.sqlite
+
+__pycache__/
 
