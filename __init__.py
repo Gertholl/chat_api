@@ -1,3 +1,3 @@
-__all__= ["app"]
+__all__ = ["app"]
 
 print(__all__)

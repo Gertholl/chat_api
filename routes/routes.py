@@ -1,9 +1,9 @@
 from flask_restful import Api
-from api_methods import *
+from api_methods import UsersAdd, ChatsAdd, ChatsGet, MessagesAdd, MessagesGet
 from funcs.errors import errors
 
 
-def init_api(app,db):
+def init_api(app, db):
     api = Api(app, default_mediatype="application/json", errors=errors)
     api.add_resource(UsersAdd, '/users/add')
     api.add_resource(ChatsAdd, '/chats/add')
